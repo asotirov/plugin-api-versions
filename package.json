@@ -1,0 +1,14 @@
+{
+  "name": "apiVersions",
+  "version": "0.0.1",
+  "main": "apiVersions.js",
+  "plugin": {
+    "consumes": [
+      "responders",
+      "Terror"
+    ],
+    "provides": [
+      "apiVersions"
+    ]
+  }
+}
