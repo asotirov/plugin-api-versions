@@ -1,7 +1,7 @@
 {
   "name": "apiVersions",
   "version": "0.0.1",
-  "main": "apiVersions.js",
+  "main": "api-versions.js",
   "dependencies": {
     "express-routes-versioning": "^0.3.0",
     "semver": "^5.1.1",
