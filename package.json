@@ -1,5 +1,5 @@
 {
-  "name": "pluginApiVersions",
+  "name": "plugin-api-versions",
   "version": "0.0.1",
   "main": "api-versions.js",
   "dependencies": {
