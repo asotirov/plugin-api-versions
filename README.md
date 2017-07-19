@@ -4,10 +4,18 @@
 
 > npm install --save git+https://github.com/asotirov/plugin-api-versions.git
 
->     Include in serverConfig.js
+## Include in serverConfig.js
+
 >     module.exports = [
 >     ....
 >     {
 >        packagePath: '../node_modules/plugin-api-versions'
 >     }
-provides "apiVersions"
+
+## Inside another plugins package.json:
+
+>       ..
+>       "plugin": {
+>         "consumes": [
+>           ..
+>           "apiVersions"
